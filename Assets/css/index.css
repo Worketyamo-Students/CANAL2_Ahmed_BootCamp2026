@@ -95,3 +95,103 @@ header button:active{
     transform: scale(.9);
 }
 /* fin de la modification du header */
+
+
+/* TODO: modification du banner */
+
+.francis{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    padding: var(--padding-header);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.francis_actu{
+    width: 55%;
+    background: linear-gradient(to top, #000000c7, rgba(0, 0, 0, 0)), url(../images/francis.jpg) center top / cover;
+    border-radius: 2rem;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.francis_actu .text{
+    color: #fff;
+    border-left: .8rem solid var(--primary-color);
+    padding: 0 1.6rem;
+}
+
+.francis_actu .text h2{
+    font-size: 2.8rem;
+    font-family: var(--font-IBM);
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.francis_actu .text span{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.francis_article{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.francis_article h2{
+    border-left: .8rem solid var(--primary-color);
+    padding: .8rem;
+    margin: 0;
+}
+
+.francis_article a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.francis_article_one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 11rem;
+}
+
+.francis_article_one_img{
+    width: 50%;
+    height: 100%;
+    background: no-repeat url(../images/fille.jpg) center top / cover;
+    border-radius: 1rem;
+}
+
+.francis_article_one .box2 {
+    background: no-repeat url(../images/police.jpg) center top / cover;
+}
+
+.francis_article_one .box3 {
+    background: no-repeat url(../images/centreVille.jpg) center top / cover;
+}
+
+.francis_article_one_text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.francis_article_one_text h3{
+    font-size: 1.9rem;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.francis_article_one_text span{
+    font-size: 1.2rem;
+}
+/* TODO: fin de modification du banner */
